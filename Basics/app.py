@@ -1,7 +1,7 @@
 Secret_Number = 9
 Guess_Count = 0
 Guess_Limit = 3
-
+Guessing_person = 'Innocent'
 while Guess_Count < Guess_Limit:
     Guess = int(input('Guess :'))
     Guess_Count+=1
